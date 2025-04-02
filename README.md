@@ -65,7 +65,7 @@ These configurations allow git to identify your changes by name and email addres
 * To list all branches created
     - git branch 
 *  To upload commit to git-hub
-    - git push origin main
+    - git remote add origin <your-repo-url>
     - git push -u origin 
 *  
 
