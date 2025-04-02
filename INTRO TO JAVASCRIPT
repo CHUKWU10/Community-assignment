@@ -1,6 +1,61 @@
+30 DAYS OF JAVASRIPT
+This is a 30 days of my consistent journey on javascript, minimum of 2 hours daily and maximum of more. 
+In this journey i will be documenting all my learning process to help others that would want to learn as well.
+I will make this journey documented or journalled properly.
+
+
+What is programming?
+A programming language is a set of instructions, written 
+in a specific syntax, which tells a computer what tasks to 
+perform and how to perform.
+
+DEFINITION OF SYNTAX
+Synax is the set of rules and symbols that define how to write and structure a code in a programming language. 
+
+SEMANTICS
+ Semantics is about what the code actually does or means.
+
+For you to start your coding or 
+
 INTRODUCTION TO JAVASCRIPT
 * What is javascript all about?
     - JavaScript is a programming language that runs in the browser to make web pages interactive. It can also run on servers (Node.js)
 * What are Variables?
-    - Variables are like containers that are use to store data, such as numbers, strings etc
+    - Variables are like containers that are use to store data, such as numbers, strings etc.
+* DataTypes
+There are two types of Data TYpes 
+1. Primitive Data types 
+    These holds single values and are stored directly in memory. 
+    Examples: 
+    1. Number: This represents any numeric value (whole numbers or decimal numbers).
+    a. integer - int (numbers that are not decimals)
+    let age = 31;
+    b. float - numbers that are decimals.
+    let pi = 3.14;
+
+    2. String: This are letter or alphabetical characters that are enclosed in a single or double quote for them to be understood by the compiler. 
+    Example: "hello World" or 'hello world'
+
+    3. Boolean: These declares a (true or false) in a statement. Often used in logic and conditions.
+    let isHappy = true; 
+
+    4. Null: This represents no value or empty (intentionally). Null is used when you want to explicitly indicate that something doesn’t have a value or reference.
+    let nothing = null;
+
+    5. Undefined: This represents a variable that has not been assigned a value yet. notDefined is a variable that has no value assigned to it, so its value is undefined.
+    let notDefined; 
+
+
+2. Non - Primitive Data Types
+    These are objects, arrays, functions, and more complex structures that store multiple values or references to data.
+
+    1. Object: These are objects, arrays, functions, and more complex structures that store multiple values or references to data.
+    let person = { name: "John", age: 25 };
+
+    2. Array: An array is an ordered collection of items, usually of the same type.
+    let fruits = ["apple", "banana", "cherry"];
+
+    3. Function: A function is a block of code designed to perform a specific task.
+    function greet() { console.log("Hi!"); }
+    greet()
     

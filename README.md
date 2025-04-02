@@ -12,7 +12,7 @@ giving creators the power to view previus versions of files and directories, dev
 the project and its history and collaborators easily and conveniently with others.
 
 Family line leading to git:
-!. RCS
+1. RCS
 2. CVS
 3. Subversion
 Git is an Open source version control system that allows you to keep track of the changes that we make to our file, save your changes, merge and retrieve your changes.
@@ -66,6 +66,7 @@ These configurations allow git to identify your changes by name and email addres
     - git branch 
 *  To upload commit to git-hub
     - git push origin main
+    - git push -u origin 
 *  
 
  
